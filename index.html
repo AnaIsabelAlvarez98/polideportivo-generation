@@ -4,17 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Lato, sans-serif;
-      padding: 0;
-      margin: 0;
-      background-color: #f2f2f2;
-      ;
-      color: #333;
-      font-size: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
   <title> Polideportivo Generation</title>
 </head>
 
@@ -25,18 +15,18 @@
       src="https://info.parkerdewey.com/hs-fs/hubfs/Generation_Logo.png?width=542&amp;height=206&amp;name=Generation_Logo.png%22"
       alt="Logo generation" width="200" height="100">
     <nav>
-      <ul style="display: flex; justify-content: center;list-style-type: none;">
-        <li style="margin: 6px;"><a style="text-decoration: none; color: #0074b9;
+      <ul id="navMenu">
+        <li><a style="text-decoration: none; color: #0074b9;
         " href="#inicio">Inicio</a></li>
-        <li style="margin: 6px;"><a style="text-decoration: none; color: #0074b9;
+        <li><a style="text-decoration: none; color: #0074b9;
         " href="#voleibol">Voleibol</a></li>
-        <li style="margin: 6px;"><a style="text-decoration: none; color: #0074b9;
+        <li><a style="text-decoration: none; color: #0074b9;
         " href="#futbol">Futbol</a></li>
-        <li style="margin: 6px;"><a style="text-decoration: none; color: #0074b9;
+        <li><a style="text-decoration: none; color: #0074b9;
         " href="#basquetbol">Basquetbol</a></li>
-        <li style="margin: 6px;"><a style="text-decoration: none; color: #0074b9;
+        <li><a style="text-decoration: none; color: #0074b9;
         " href="#karate">Karate</a></li>
-        <li style="margin: 6px;"><a style="text-decoration: none; color: #0074b9;
+        <li><a style="text-decoration: none; color: #0074b9;
         " href="#patinaje">Patinaje</a></li>
         <li style="margin: 6px"><a style="text-decoration: none; color: #0074b9;
         " href="#tenis">Tenis</a></li>
@@ -63,9 +53,8 @@
     </p>
   </div>
 
-  <section style="display: flex; align-self: center; background-color: #edf2f6;">
-    <div id="voleibol" style="width: 30%; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px; background-color: #f4fbff
-;border-radius:2%;">
+  <section>
+    <div id="voleibol"class="card">
       <h3 style="color: #001725; padding: 10px 20px; text-align: center; font-size:25px;">Voleibol</h3>
       <img src="https://integralspor.com/uploads/facility/original/voleybol-sahalari-27752.jpg" alt="Cancha de voleibol"
         width="300" height="200" style="display: block; margin: 0 auto; border-radius: 8px;">
@@ -78,8 +67,7 @@
       </ul>
     </div>
 
-    <div id="futbol" style="width: 30%; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px; background-color: #f4fbff
-;border-radius:2%;">
+    <div id="futbol" class="card">
       <h3 style="color: #001725; padding: 10px 20px; text-align: center; font-size:25px;">Futbol</h3>
       <img
         src="https://realestatemarket.com.mx/images/2023/07-julio/28-07/El-polideportivo-subterraneo-en-el-desierto-de-Chile.jpg"
@@ -94,8 +82,7 @@
       </ul>
     </div>
 
-    <div id="basquetbol" style="width: 30%; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px; background-color: #f4fbff
-;border-radius:2%;">
+    <div id="basquetbol" class="card">
       <h3 style="color: #001725; padding: 10px 20px; text-align: center; font-size:25px;">Basquetbol</h3>
       <img
         src="https://www.diariodecuyo.com.ar/export/sites/diariodecuyo/img/2019/11/08/76688945_717569588654841_7494944198987087872_n.jpg?__scale=c:transparent,w:866,h:866,t:3,q:80"
@@ -111,9 +98,8 @@
 
 
   </section>
-  <section style="display: flex; align-self: center; background-color: #edf2f6;">
-    <div id="karate" style="width: 30%; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px; background-color: #f4fbff
-;border-radius:2%;">
+  <section>
+    <div id="karate" class="card">
       <h3 style="color: #001725; padding: 10px 20px; text-align: center; font-size:25px;">Karate</h3>
       <img
         src="https://cdn.shopify.com/s/files/1/0646/4097/files/tatami_96b5ddf2-0843-4471-843c-9b8d043421be_1024x1024.jpg?v=1582280893"
@@ -127,8 +113,7 @@
       </ul>
     </div>
 
-    <div id="patinaje" style="width: 30%; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px; background-color: #f4fbff
-;border-radius:2%;">
+    <div id="patinaje" class="card">
       <h3 style="color: #001725; padding: 10px 20px; text-align: center; font-size:25px;">Patinaje</h3>
       <img src="https://www.equiver.com.co/images/pistas-patinaje/construccion-patinodromo-1.jpg"
         alt="Cancha de patinaje" width="300" height="200" style="display: block; margin: 0 auto; border-radius: 8px;">
@@ -141,8 +126,7 @@
       </ul>
     </div>
 
-    <div id="tenis" style="width: 30%; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px; background-color: #f4fbff
-;border-radius:2%;">
+    <div id="tenis" class="card">
       <h3 style="color: #001725; padding: 10px 20px; text-align: center; font-size:25px;">Tenis</h3>
       <img src="https://www.equiver.com.co/images/construccion-canchas-tenis/construccion-canchas-tenis-2.jpg"
         alt="Cancha de tenis" width="300" height="200" style="display: block; margin: 0 auto; border-radius: 8px;">
