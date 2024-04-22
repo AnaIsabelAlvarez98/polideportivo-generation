@@ -27,39 +27,42 @@ header {
   text-decoration: none;
 }
 
-a{
- text-decoration: none;
- margin: 6px;
- color: #0074b9;
+a {
+  text-decoration: none;
+  margin: 6px;
+  color: #0074b9;
 }
-
 
 section {
   display: flex;
   align-self: center;
-  background-color: #edf2f6;
-}
- 
-#inicio {
-  text-align: center;
-  margin-top: 20px
 }
 
-h1{
-  color: #001725; 
-  font-size: 36px; 
-  text-align: center; 
+#card-box {
+  display: flex;
+  align-self: center;
+  background-color: #edf2f6;
+}
+
+#inicio {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #001725;
+  font-size: 36px;
+  text-align: center;
   margin-top: 110px;
 }
 
-#imgInicio{
-  display: block; 
-  margin: 0 auto; 
-  border-radius:2%; 
+#imgInicio {
+  display: block;
+  margin: 0 auto;
+  border-radius: 2%;
   margin-top: 40px;
   width: 70%;
   height: 50%;
-
 }
 .card {
   width: 30%;
@@ -82,7 +85,7 @@ h1{
   margin: 0 auto;
   border-radius: 8px;
   width: 300px;
-  height: 200px
+  height: 200px;
 }
 
 .card:hover {
@@ -94,15 +97,14 @@ h1{
 }
 
 footer {
-  display: flex; 
+  display: flex;
   justify-content: center;
-  background-color: #001725; 
-  padding: 10px 20px; 
+  background-color: #001725;
+  padding: 10px 20px;
   width: 100%;
 }
 
-footer section{
-  text-align:left; 
-  color:#edf2f6;
+footer section {
+  text-align: left;
+  color: #edf2f6;
 }
-
