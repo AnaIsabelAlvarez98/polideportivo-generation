@@ -51,9 +51,13 @@ section {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  position: fixed;
+  display: flex; 
+  justify-content: center;
+  background-color: #001725; 
+  padding: 10px 20px; 
+  width: 100%;
+}
+footer section{
+  text-align:left; 
+  color:#edf2f6;
 }
