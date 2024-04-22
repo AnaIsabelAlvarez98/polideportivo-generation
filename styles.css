@@ -27,6 +27,10 @@ header {
   text-decoration: none;
 }
 
+a:hover{
+  color: #001725;
+}
+
 a {
   text-decoration: none;
   margin: 6px;
