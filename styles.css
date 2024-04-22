@@ -27,9 +27,7 @@ header {
   text-decoration: none;
 }
 
-a:hover{
-  color: #001725;
-}
+
 
 a {
   text-decoration: none;
@@ -37,6 +35,9 @@ a {
   color: #0074b9;
 }
 
+a:hover{
+  color: #001725;
+}
 section {
   display: flex;
   align-self: center;
@@ -76,6 +77,7 @@ h1 {
   margin: 20px;
   background-color: #f4fbff;
   border-radius: 2%;
+  filter: drop-shadow(20px 20px 0px #0074B9);
 }
 
 .card h3 {
@@ -102,13 +104,21 @@ h1 {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #001725;
   padding: 10px 20px;
   width: 100%;
+  align-items: center;
+  margin-top: 30px;
 }
-
-footer section {
+ 
+footer div {
   text-align: left;
+  display: block;
+  color: #edf2f6;
+  margin-inline: 50px;
+}
+ 
+footer p {
   color: #edf2f6;
 }
