@@ -71,14 +71,38 @@ h1{
   border-radius: 2%;
 }
 
+.card h3 {
+  color: #001725;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.card img {
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 300px;
+  height: 200px
+}
+
 .card:hover {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  position: fixed;
+.card ul {
+  text-align: left;
 }
+
+footer {
+  display: flex; 
+  justify-content: center;
+  background-color: #001725; 
+  padding: 10px 20px; 
+  width: 100%;
+}
+
+footer section{
+  text-align:left; 
+  color:#edf2f6;
+}
+
