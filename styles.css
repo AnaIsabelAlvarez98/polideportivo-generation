@@ -23,11 +23,15 @@ header {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  margin: 6px;
-  text-decoration: none; 
-  color: #0074b9
+  text-decoration: none;
+  text-decoration: none;
 }
 
+a{
+ text-decoration: none;
+ margin: 6px;
+ color: #0074b9;
+}
 
 
 section {
@@ -35,7 +39,28 @@ section {
   align-self: center;
   background-color: #edf2f6;
 }
+ 
+#inicio {
+  text-align: center;
+  margin-top: 20px
+}
 
+h1{
+  color: #001725; 
+  font-size: 36px; 
+  text-align: center; 
+  margin-top: 110px;
+}
+
+#imgInicio{
+  display: block; 
+  margin: 0 auto; 
+  border-radius:2%; 
+  margin-top: 40px;
+  width: 70%;
+  height: 50%;
+
+}
 .card {
   width: 30%;
   text-align: center;
