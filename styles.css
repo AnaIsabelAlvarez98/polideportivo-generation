@@ -19,7 +19,7 @@ header {
   align-items: center;
 }
 
-#navMenu {
+#nav-menu {
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -38,10 +38,22 @@ a {
 a:hover{
   color: #001725;
 }
+
+.info{
+  margin-inline: 50px; 
+  padding-inline: 50px;
+}
+
+h2{
+  color: #001725;
+  font-size: 70px
+}
+
 section {
   display: flex;
   align-self: center;
 }
+
 
 #card-box {
   display: flex;
@@ -49,9 +61,14 @@ section {
   background-color: #edf2f6;
 }
 
-#inicio {
+.contenedor-inicio {
   text-align: center;
   margin-top: 20px;
+}
+
+.imgInicio{
+ border-radius: 5px;
+ width: 60%
 }
 
 h1 {
@@ -100,6 +117,19 @@ h1 {
 
 .card ul {
   text-align: left;
+}
+
+.mapa{
+align-items: center;
+}
+
+#map{
+ align-items: center;
+ width: 60%;
+  margin: 50px;
+  border-radius: 10px;
+  border: 2px solid #0074B9;
+  box-shadow: 0 0 20px;
 }
 
 footer {
